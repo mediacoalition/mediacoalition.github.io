@@ -1,26 +1,93 @@
-@font-face {
-    font-family: Alata;
-    src: url(https://dev801.github.io/fonts/Alata-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
 
 :root {
     --accent: #5920b6;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 * {
-    font-family: Alata;
+    font-family: "Lato", sans-serif;
 }
 
-footer {
-    background-color: var(--accent);
-    padding: 10px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
 }
 
-footer * {
-    color: #ffffff!important;
-    font-size: 10px;
+.header {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgba(27, 29, 44, 0.7), rgba(27, 29, 44, 0.7)), url(img/header.png);
+    background-size: 100%;
 }
 
-footer h1 {
-    font-size: 17px;
+.header *, nav * {
+    color: #ffffff;
+}
+
+.header-icon {
+    margin-right: 40px;
+}
+
+.header-icon img {
+    width: 100%;
+}
+
+.header-icon:last-child {
+    margin-right: 0;
+}
+
+.head-name {
+    margin-right: 48px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.head-name:last-child {
+    margin-right: 0;
+
+}
+
+.greySVG {
+    fill: #323232;
+}
+
+rect.greySVG {
+    fill: none;
+    stroke: #323232;
+}
+
+.greyText {
+    color: #323232;
+}
+
+.heading-box {
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.1);
+}
+
+.heading-box-heading {
+    padding: 28px;
+}
+
+.headline {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sub {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(50, 50, 50, 0.8);
 }
