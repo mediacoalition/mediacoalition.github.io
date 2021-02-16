@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Alata;
+    src: url(https://dev801.github.io/fonts/Alata-Regular.ttf);
+}
+
+:root {
+    --accent: #5920b6;
+}
+
+* {
+    font-family: Alata;
+}
+
+footer {
+    background-color: var(--accent);
+    padding: 10px;
+}
+
+footer * {
+    color: #ffffff!important;
+    font-size: 10px;
+}
+
+footer h1 {
+    font-size: 17px;
+}
