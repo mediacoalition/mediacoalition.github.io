@@ -1,6 +1,6 @@
 $(window).on("load", () => {
     generateNavbar();
-    //generateFooter();
+    generateFooter();
     console.log("here")
 })
 
@@ -147,7 +147,6 @@ function generateNavbar() {
 }
 
 function generateFooter() {
-    throw new Error();
     let footer = document.createElement("footer");
     let topHr = document.createElement("hr");
     topHr.classList.add("w-100");
