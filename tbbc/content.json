@@ -1,8 +1,123 @@
 {
     "headline": {
-        "title": "PM to focus on \"data not dates\" in lockdown easing",
-        "image": ""
+        "title": {
+            "textContent": "'Strong decline' in virus in England since January"
+        },
+        "extra": {
+            "textContent": "Study finds infections fell by two-thirds - and more in London - but warns virus levels remain high.",
+            "time": {
+                "textContent": "10m"
+            },
+            "category": {
+                "textContent": "Health"
+            }
+        },
+        "image": {
+            "src": "https://ichef.bbci.co.uk/news/320/cpsprodpb/17FA9/production/_117071289_pa-57919961.jpg"
+        }
     },
+    "secondStory": {
+        "link": {
+            "href": "#"
+        },
+        "image": {
+            "src": "https://ichef.bbci.co.uk/news/380/cpsprodpb/11375/production/_117071507_mediaitem117071506.jpg"
+        },
+        "title": {
+            "textContent": "Australia 'not intimidated' by Facebook news ban"
+        },
+        "extra": {
+            "textContent": "Scott Morrison says Facebook's decision to block news feeds to users is \"arrogant and disappointing\".",
+            "time": {
+                "textContent": "4h"
+            },
+            "category": {
+                "textContent": "Australia"
+            }
+        }
+    },
+    "stories": [
+        {
+            "link": {
+                "href": "#"
+            },
+            "image": {
+                "src": "https://ichef.bbci.co.uk/news/380/cpsprodpb/11375/production/_117071507_mediaitem117071506.jpg"
+            },
+            "title": {
+                "textContent": "Australia 'not intimidated' by Facebook news ban"
+            },
+            "extra": {
+                "textContent": "Scott Morrison says Facebook's decision to block news feeds to users is \"arrogant and disappointing\".",
+                "time": {
+                    "textContent": "4h"
+                },
+                "category": {
+                    "textContent": "Australia"
+                }
+            }
+        },
+        {
+            "link": {
+                "href": "#"
+            },
+            "image": {
+                "src": "https://ichef.bbci.co.uk/news/240/cpsprodpb/26E5/production/_117075990_mediaitem117075985.jpg"
+            },
+            "title": {
+                "textContent": "Woman dead and two injured in house explosion"
+            },
+            "extra": {
+                "textContent": "Another woman and a child are taken to hospital after the blast which caused the house to collapse.",
+                "time": {
+                    "textContent": "14m"
+                },
+                "category": {
+                    "textContent": "Manchester"
+                }
+            }
+        },
+        {
+            "link": {
+                "href": "#"
+            },
+            "image": {
+                "src": "https://ichef.bbci.co.uk/news/240/cpsprodpb/8487/production/_117072933_whatsubject.jpg"
+            },
+            "title": {
+                "textContent": "'No jab, no job' policies may be legal for new staff"
+            },
+            "extra": {
+                "textContent": "It may be legal to insist on vaccinations in new staff contracts, the justice secretary says.",
+                "time": {
+                    "textContent": "1h"
+                },
+                "category": {
+                    "textContent": "Business"
+                }
+            }
+        },
+        {
+            "link": {
+                "href": "#"
+            },
+            "image": {
+                "src": "https://ichef.bbci.co.uk/news/240/cpsprodpb/735E/production/_117043592_vaccinevideo.jpg"
+            },
+            "title": {
+                "textContent": "TV channels to show vaccine myth-busting video"
+            },
+            "extra": {
+                "textContent": "The celebrity-led film will urge people from ethnic minority communities to have the Covid jab.",
+                "time": {
+                    "textContent": "3h"
+                },
+                "category": {
+                    "textContent": "Entertainment & Arts"
+                }
+            }
+        }
+    ],
     "rightHandStuff": [
         {
             "title": "Drop in cases but call for 'long Covid' help",
@@ -39,18 +154,99 @@
             "link": "#",
             "time": "9h",
             "category": "UK"
+        }
+    ],
+    "custom": [
+        {
+            "header": "Coronavirus explained",
+            "content": [
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/F297/production/_117030126_yy1200gettyimages-117781391.jpg",
+                    "text": "What is a challenge trial and why do we need them?",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/12951/production/_116931167_gettyimages-159627258.jpg",
+                    "text": "The unfounded claims about vaccines and fertility",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/14DBC/production/_115963458_index_is_the_vaccine_safe_976.png",
+                    "text": "Will I get side effects from the vaccine?",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/240/cpsprodpb/14B0C/production/_116884748_p096hrlr.jpg",
+                    "text": "'Tracking my mum's fake Covid message'",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/240/cpsprodpb/10772/production/_113824476_index_lockdown_roundup_976.png",
+                    "text": "When will lockdown rules be reviewed?",
+                    "link": "#"
+                }
+            ]
         },
         {
-            "title": "Almost 2 million 'have not worked for six months'",
-            "link": "#",
-            "time": "1h",
-            "category": "Business"
+            "header": "Must see",
+            "content": [
+                {
+                    "img": "https://ichef.bbci.co.uk/news/320/cpsprodpb/17581/production/_117071659_p097cb84.jpg",
+                    "text": "Mount Etna: Mesmerising pictures of latest eruption",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/10A8A/production/_117043286_p0979h0t.jpg",
+                    "text": "Is this London's thinnest house?",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/06AB/production/_116970710_e6c5ed86-fc75-4f69-ba36-28c2cceb9be4.jpg",
+                    "text": "Young farmers: 'I bullied myself evey day'",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/10E0E/production/_117043196_pia24314.jpg",
+                    "text": "Nasa's Mars rover set for daunting landing",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/85CE/production/_117045243_p097b85n.jpg",
+                    "text": "How do you stop a suicide bomber?",
+                    "link": "#"
+                },
+                {
+                    "img": "https://ichef.bbci.co.uk/news/380/cpsprodpb/CADE/production/_117043915_p09795vj.jpg",
+                    "text": "Priyanka Chopra Jonas locked down in London",
+                    "link": "#"
+                }
+            ]
         },
         {
-            "title": "'Roaring Kitty' GameStop investor hit with lawsuit",
-            "link": "#",
-            "time": "8h",
-            "category": "Business"
+            "header": "Most watched",
+            "format": "leaderboard",
+            "content": [
+                {
+                    "text": "Mount Etna: Mesmerising pictures of latest eruption",
+                    "link": "#"
+                },
+                {
+                    "text": "Is this London's thinnest house?",
+                    "link": "#"
+                },
+                {
+                    "text": "Priyanka Chopra Jonas locked down in London",
+                    "link": "#"
+                },
+                {
+                    "text": "Thick ash clouds sky as Etna erupts",
+                    "link": "#"
+                },
+                {
+                    "text": "How this Mars landing will be different to before",
+                    "link": "#"
+                }
+            ]
         }
     ]
 }

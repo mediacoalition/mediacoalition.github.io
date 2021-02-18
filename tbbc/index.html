@@ -37,20 +37,62 @@
         <script src="script.js"></script>
         <link type="text/css" rel="stylesheet" href="style.css">
 
-        <!-- TEMP, FOR TESTING LOCALLY -->
-        <!-- <link type="text/css" rel="stylesheet" href="globalStyle.css">
+        <!-- TEMP, FOR TESTING LOCALLY
+        <link type="text/css" rel="stylesheet" href="globalStyle.css">
         <script src="extras.js"></script> 
-        <script src="contentLoader.js"></script>-->
+        <script src="contentLoader.js"></script> -->
     </head>
     <body>
         <main>
             <div class="container">
                 <div class="d-flex justify-content-between">
-                    <div class="">hi</div>
+                    <div class="d-flex flex-column w-100">
+                        <div class="d-flex w-100">
+                            <div class="d-flex headline w-100">
+                                <div class="d-flex flex-column headline-text-container">
+                                    <div class="d-block d-sm-none">
+                                        <img data-content-code="headline-image" class="w-100 mb-2">
+                                    </div>
+                                    <div class="title">
+                                        <h3 data-content-code="headline-title"></h3>
+                                    </div>
+                                    <div data-content-code="headline-extra"></div>
+                                    <div class="d-flex">
+                                        <div class="icon" style="margin-right: 3px;"></div>
+                                        <div data-content-code="headline-extra-time"></div>
+                                        <div class="separator h-100"></div>
+                                        <div data-content-code="headline-extra-category"></div>
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block w-100 ml-2">
+                                    <img data-content-code="headline-image" class="w-100">
+                                </div>
+                            </div>
+                            <div class="flex-column d-none d-md-flex pr-xl-2 story pl-2" style="max-width: 235px;">
+                                <div class="image">
+                                    <img data-content-code="secondStory-image" class="w-100">
+                                </div>
+                                <h6><a data-content-code="secondStory-link"><span data-content-code="secondStory-title"></span></a></h6>
+                                <div data-content-code="secondStory-extra" class="extra"></div>
+                                <div class="d-flex extra">
+                                    <div class="icon" style="margin-right: 3px;"></div>
+                                    <div data-content-code="secondStory-extra-time"></div>
+                                    <div class="separator"></div>
+                                    <div data-content-code="secondStory-extra-category"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row stories mt-3 pr-xl-2">
+                            
+                        </div>
+                    </div>
                     <div class="d-none d-xl-flex flex-column right-stories"></div>
                 </div>
-                <hr class="d-none d-sm-block d-xl-none">
-                <div class="d-none d-sm-flex d-xl-none flex-column right-stories"></div>
+                <hr class="d-block d-xl-none">
+                <div class="d-flex d-xl-none flex-column right-stories"></div>
+                <div class="custom-content">
+                    <!-- ALL OF THIS IS GENERATED FROM THE JSON FILE -->
+                </div>
             </div>
         </main>
     </body>

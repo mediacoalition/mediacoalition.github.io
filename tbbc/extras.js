@@ -1,7 +1,6 @@
 $(window).on("load", () => {
     generateNavbar();
     generateFooter();
-    console.log("here")
 })
 
 function generateNavbar() {
@@ -156,7 +155,7 @@ function generateFooter() {
     container.classList.add("container");
 
     let xl = document.createElement("div");
-    xl.classList.add("d-none", "d-xl-flex", "flex-column");
+    xl.classList.add("d-flex", "flex-column");
     xl.innerHTML = `
         <div class="row">
             <div class="d-flex footer-element-container col">
@@ -182,21 +181,21 @@ function generateFooter() {
                 </div>
                 <div class="separator h-100"></div>
             </div>
-            <div class="d-flex footer-element-container col">
+            <div class="d-none d-sm-flex footer-element-container col">
                 <div class="d-flex flex-column w-100">
                     <div>Weather</div>
                     <div>Bitesize</div>
                 </div>
                 <div class="separator h-100"></div>
             </div>
-            <div class="d-flex footer-element-container col">
+            <div class="d-none d-lg-flex footer-element-container col">
                 <div class="d-flex flex-column w-100">
                     <div>iPlayer</div>
                     <div>Arts</div>
                 </div>
                 <div class="separator h-100"></div>
             </div>
-            <div class="d-flex footer-element-container col">
+            <div class="d-none d-lg-flex footer-element-container col">
                 <div class="d-flex flex-column w-100">
                     <div>Sounds</div>
                     <div>Taster</div>
@@ -215,19 +214,19 @@ function generateFooter() {
             <div class="footer-element">
                 Privacy Policy
             </div>
-            <div class="footer-element">
+            <div class="footer-element d-none d-sm-block">
                 Cookies
             </div>
-            <div class="footer-element">
+            <div class="footer-element d-none d-sm-block">
                 Accessibility Help
             </div>
-            <div class="footer-element">
+            <div class="footer-element d-none d-lg-block">
                 Parental Guidance
             </div>
-            <div class="footer-element">
+            <div class="footer-element d-none d-lg-block">
                 Contact the TBBC
             </div>
-            <div class="footer-element">
+            <div class="footer-element d-none d-lg-block">
                 Get Personalised Newsletters
             </div>
         </div>

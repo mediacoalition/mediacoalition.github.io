@@ -13,3 +13,62 @@
     background-color: #00000038;
     height: 24px;
 }
+
+.headline .title * {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+@media (min-width: 576px) {
+    .headline-text-container {
+        max-width: 250px;
+    }
+}
+
+.headline .separator, .story .separator {
+    background-color: #00000038;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.story h6 {
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.story a {
+    color: #000000;
+}
+
+.story .extra {
+    font-size: 13px;
+}
+
+.custom-content {
+    margin-top: 10px;
+}
+
+.custom-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-content hr {
+    background-color: #000000;
+}
+
+.leaderboard li div {
+    transform: translate(0, -17px);
+}
+
+.custom-stuff a {
+    font-weight: 700;
+    color: #000000;
+}
+
+ol ::marker {
+    color: #bb1919;
+    font-size: 2.75rem;
+}
