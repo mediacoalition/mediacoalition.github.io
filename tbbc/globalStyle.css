@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "IconsFilled";
+    src: url(font/FluentSystemIcons-Filled.ttf);
+}
+
+@font-face {
+    font-family: "Icons";
+    src: url(font/FluentSystemIcons-Regular.ttf)
+}
+
+@font-face {
+    font-family: "ReithSans";
+    src: url(font/BBCReithSans_Rg.ttf);
+}
+
+@font-face {
+    font-family: "ReithSansLight";
+    src: url(font/BBCReithSans_Lt.ttf);
+}
+
+* {
+    font-family: "Helvetica", sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.bbc-header div.header-element {
+    padding: .462em 12px .308em;
+}
+
+.bbc-header div.header-element:first-child {
+    padding-left: 0;
+}
+
+.bbc-header div.header-element:last-child {
+    padding-right: 0;
+}
+
+.bbc-header .icon-filled {
+    font-size: larger;
+}
+
+.bbc-header div.header-separator {
+    height: 38px;
+    width: 1px;
+    background-color: #00000038;
+}
+
+.bbc-header div.header-text {
+    padding-top: 3px;
+}
+
+.bbc-header input {
+    border: none;
+    background: none;
+}
+
+.bbc-header .header-input {
+    background-color: #e4e4e4;
+    margin-top: 2px;
+}
+
+.bbc-header * {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.news-header {
+    background-color: #bb1919;
+    overflow: hidden;
+}
+
+.news-header .header {
+    font-family: "ReithSans", sans-serif;
+    color: #adadad;
+    font-size: 50px;
+}
+
+.news-header .options hr {
+    width: 300%;
+    margin: 0;
+    margin-left: -50%;
+    background-color: #adadad;
+}
+
+.news-header div.header-separator {
+    height: 38px;
+    width: 1px;
+    background-color: #00000038;
+}
+
+footer {
+    background-color: #4c4c4c;
+}
+
+footer * {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+footer hr, footer .separator {
+    color: #acacac;
+    background-color: #acacac;
+}
+
+footer .separator {
+    width: 1px;
+}
+
+.footer-bottom .footer-element {
+    padding: 8px;
+}
+
+.footer-bottom .footer-element:first-child {
+    padding-left: 0;
+}
+
+.footer-bottom .footer-element:last-child {
+    padding-right: 0;
+}
+
+.footer-element-container div {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.icon {
+    font-family: "Icons";
+}
+
+.icon-filled {
+    font-family: "IconsFilled";
+}
+
+main {
+    margin-top: 20px;
+}
