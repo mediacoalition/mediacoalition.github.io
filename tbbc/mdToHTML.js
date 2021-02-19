@@ -1,0 +1,1 @@
+$(window).on("load", () => $(".page-md").html(new showdown.Converter().makeHtml($(".page-md").html())));

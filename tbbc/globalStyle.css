@@ -18,6 +18,11 @@
     src: url(font/BBCReithSans_Lt.ttf);
 }
 
+@font-face {
+    font-family: "ReithSerif";
+    src: url(font/BBCReithSerif_Rg.ttf);
+}
+
 * {
     font-family: "Helvetica", sans-serif;
 }
