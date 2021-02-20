@@ -20,7 +20,19 @@
     <body>
         <div class="container">
             <h1 style="padding-top: 20px;">TBBC Page Generator</h1>
-            <p>Use this page for generating totally new pages.</p>
+            <p>
+                Use this page for generating entirely new pages.<br>
+                <small>yes, i <em>am</em> aware this is massively inconsistent and looks disgusting. it's just made to work, don't come at me</small><br>
+                <a href="https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax" target="_blank">go here if you forget how markdown works</a><br>
+                oh and yeah you can use html in these things but i'd recommend sticking to markdown
+            </p>
+            <p>
+                if you wanna give an image a caption:<br>
+                <pre>
+![image alt](image url)
+*caption goes here*
+                </pre>
+            </p>
             <label for="template">Template:</label>
             <select name="template" id="template">
                 <option name="news">News page</option>
@@ -29,8 +41,17 @@
             <div class="option-stuff">
                 <div class="row">
                     <div class="col">
+                        <h5>Meta (twitter/discord embed stuff)</h5>
                         <label for="title">Page title:</label>
-                        <input name="title" id="title" type="text">
+                        <input name="title" id="title" type="text" placeholder="'- TBBC News' will be added">
+                        <textarea class="w-100" name="desc" id="desc" placeholder="Description"></textarea>
+                    </div>
+                    <div class="col">
+                        <textarea rows="10" name="md" id="md" class="w-100" placeholder="Page markdown">
+# Title goes here
+&lt;small class="credit"&gt;**Author goes here**&lt;br&gt;
+&lt;span style="color: #696969"&gt;More credit goes here&lt;/span&gt;&lt;/small&gt;                        
+                        </textarea>
                     </div>
                 </div>
             </div>
