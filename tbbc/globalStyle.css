@@ -73,6 +73,10 @@
     font-size: 14px;
 }
 
+.bbc-header a {
+    color: #000000;
+}
+
 .news-header {
     background-color: #bb1919;
     overflow: hidden;
