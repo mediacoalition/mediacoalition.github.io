@@ -1,4 +1,4 @@
-$(window).on("load", () => {
+$(window).on("load", async () => {
     await mdToHTML();
 });
 
