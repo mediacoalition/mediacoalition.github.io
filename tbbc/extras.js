@@ -1,6 +1,6 @@
 $(window).on("load", () => {
-    generateNavbar();
-    generateFooter();
+    if (!$("nav").length) generateNavbar();
+    if (!$("footer").length) generateFooter();
 })
 
 function generateNavbar() {
@@ -10,7 +10,7 @@ function generateNavbar() {
     bbcHeader.classList.add("container", "bbc-header", "d-inline-flex")
     bbcHeader.innerHTML = `
         <div class="header-element">
-            <img src="img/bbc-b.svg" width="84px">
+            <img src="https://mediacoalition.github.io/tbbc/img/bbc-b.svg" width="84px">
         </div>
         <div class="header-separator"></div>
         <div class="header-element d-flex">
