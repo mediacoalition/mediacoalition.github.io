@@ -1,4 +1,4 @@
-$(window).on("load", async () => {
+$("body").on("load", async () => {
     // md -> html
     $(".page-md").html(() => new showdown.Converter().makeHtml($(".page-md").html()));
     // image captions

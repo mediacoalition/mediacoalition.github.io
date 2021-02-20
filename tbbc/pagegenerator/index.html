@@ -26,16 +26,24 @@
                 <option name="news">News page</option>
                 <option name="none">None</option>
             </select>
+            <div class="option-stuff">
+                <div class="row">
+                    <div class="col">
+                        <label for="title">Page title:</label>
+                        <input name="title" id="title" type="text">
+                    </div>
+                </div>
+            </div>
             <div class="d-flex justify-content-center">
-                <button style="margin-right: 10px;" class="btn btn-primary">
+                <button style="margin-right: 10px;" class="btn btn-primary preview">
                     Preview
                 </button>
-                <button onclick="download('index.html', `<!DOCTYPE html><html><head>${$('#iframe').contents()[0].head.innerHTML}</head><body>${$('#iframe').contents()[0].body.innerHTML}</body></html>`)" class="btn btn-primary">
+                <button class="btn btn-primary download">
                     Download
                 </button>
             </div>
         </div>
-        <p class="container">Preview:</p>
+        <hr>
         <iframe id="iframe" src="newsTemplate.html"></iframe>
     </body>
 </html>
