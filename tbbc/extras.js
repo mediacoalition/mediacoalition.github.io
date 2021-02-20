@@ -26,7 +26,7 @@ function generateNavbar() {
         <div class="header-separator"></div>
         <div class="header-element d-block d-sm-none d-xl-block">
             <div class="header-text">
-                Home
+                <a href="https://mediacoalition.github.io/tbbc">Home</a>
             </div>
         </div>
         <div class="header-separator d-block d-sm-none d-xl-block"></div>
