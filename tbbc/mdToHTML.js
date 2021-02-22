@@ -124,6 +124,5 @@ async function mdToHTML() {
             container.appendChild(thing);
         }
     });
-
-    $(".top-stories").append(container);
+    if (!$(".top-stories").children().length) $(".top-stories").append(container);
 }
