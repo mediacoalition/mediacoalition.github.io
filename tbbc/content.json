@@ -82,18 +82,18 @@
         },
         {
             "link": {
-                "href": "#"
+                "href": "https://mediacoalition.github.io/tbbc/articles/02-22/one-minute-world-news/"
             },
             "image": {
-                "src": "https://cdn.discordapp.com/attachments/792828158209556494/813399724375146576/image_6.png"
+                "src": "https://cdn.discordapp.com/attachments/792828158209556494/813400962051735552/image_7.png"
             },
             "title": {
-                "textContent": "Reports of inhumane war crimes taking place in React Winoaera"
+                "textContent": "One-minute World News"
             },
             "extra": {
-                "textContent": "World leaders urged to place sanctions on React Nativstan",
+                "textContent": "Watch the latest news summary from BBC World News. International news updated 24 hours a day.",
                 "time": {
-                    "textContent": "13h"
+                    "textContent": "2h"
                 },
                 "category": {
                     "textContent": "React gulf crisis"
