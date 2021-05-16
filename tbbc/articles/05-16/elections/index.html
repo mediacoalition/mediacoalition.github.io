@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>16/5 Developer Sanctuary Elections - TBBC News</title>
+
+        <!-- META STUFF -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="16/5 Developer Sanctuary Elections - TBBC News">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Today's elections are going ahead as planned, with a total of 11 candidates. These elections follow a ten-day exile of the previous leader, FireCube#4142.">
+        <meta property="og:site_name" content="TBBC News">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:image" content="https://mediacoalition.github.io/tbbc/img/bbc.svg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:domain" content="mediacoalition.github.io">
+        <meta name="theme-color" content="#bb1919">
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <!-- UNDERSCORE.JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.12.0/underscore-min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- SHOWDOWN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+        <!-- CUSTOM STUFF -->
+        <script src="https://mediacoalition.github.io/tbbc/mdToHTML.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://mediacoalition.github.io/tbbc/globalStyle.css">
+        <link type="text/css" rel="stylesheet" href="https://mediacoalition.github.io/tbbc/pageStyle.css">
+        <script src="https://mediacoalition.github.io/tbbc/extras.js"></script>
+    
+    </head>
+    <body>
+        <nav class="d-flex flex-column"><div class="container bbc-header d-inline-flex">
+        <div class="header-element">
+            <img src="https://mediacoalition.github.io/tbbc/img/bbc-b.svg" width="84px">
+        </div>
+        <div class="header-separator"></div>
+        <div class="header-element d-flex">
+            <div class="icon-filled"></div>
+            <div class="d-none d-lg-block mr-5 header-text" style="padding-left: 12px;">
+                Sign in
+            </div>
+        </div>
+        <div class="header-separator"></div>
+        <div class="header-element">
+            <div class="icon-filled"></div>
+        </div>
+        <div class="header-separator"></div>
+        <div class="header-element d-block d-sm-none d-xl-block">
+            <div class="header-text">
+                <a href="https://mediacoalition.github.io/tbbc">Home</a>
+            </div>
+        </div>
+        <div class="header-separator d-block d-sm-none d-xl-block"></div>
+        <div class="header-element d-none d-sm-block">
+            <div class="header-text">
+                News
+            </div>
+        </div>
+        <div class="header-separator d-none d-sm-block"></div>
+        <div class="header-element d-none d-sm-block">
+            <div class="header-text">
+                Sport
+            </div>
+        </div>
+        <div class="header-separator d-none d-sm-block"></div>
+        <div class="header-element d-none d-sm-block">
+            <div class="header-text">
+                Weather
+            </div>
+        </div>
+        <div class="header-separator d-none d-md-block"></div>
+        <div class="header-element d-none d-md-block">
+            <div class="header-text">
+                iPlayer
+            </div>
+        </div>
+        <div class="header-separator d-none d-lg-block"></div>
+        <div class="header-element d-none d-lg-block">
+            <div class="header-text">
+                Sounds
+            </div>
+        </div>
+        <div class="header-separator d-none d-lg-block"></div>
+        <div class="header-element d-none d-lg-block">
+            <div class="header-text">
+                CBBC
+            </div>
+        </div>
+        <div class="header-separator d-none d-sm-block"></div>
+        <div class="header-element">
+            <div class="header-input d-none d-sm-flex">
+                <input type="text" placeholder="Search">
+                <div class="icon-filled"></div>
+            </div>
+            <div class="d-flex d-sm-none">
+                <div class="icon-filled"></div>
+            </div>
+        </div>
+        <div class="header-separator d-block d-sm-none"></div>
+    </div><div class="news-header">
+        <div class="d-flex flex-column container">
+            <div class="header">
+                <g fill="#fff"><path d="M3379.73 4.15h2.03v14.97h-1.84l-10.01-11.53v11.53h-2.01V4.15h1.74l10.09 11.62V4.15M3385.62 4.15h8.49v1.91h-6.34v4.56h6.13v1.92h-6.13v4.65h6.54v1.9h-8.69V4.15M3416.97 4.15h2.14l-6.05 15.03h-.47l-4.89-12.17-4.95 12.17h-.46l-6.03-15.03h2.16l4.12 10.32 4.16-10.32h2.02l4.17 10.32 4.08-10.32M3424.92 12.85l-1.63-.99c-1.02-.62-1.75-1.24-2.18-1.84-.43-.6-.65-1.3-.65-2.08 0-1.18.41-2.14 1.23-2.87.82-.74 1.88-1.1 3.19-1.1 1.25 0 2.4.35 3.44 1.05v2.43c-1.08-1.04-2.24-1.56-3.48-1.56-.7 0-1.27.16-1.73.49-.45.32-.67.74-.67 1.24 0 .45.17.87.5 1.26.33.39.86.8 1.6 1.23l1.64.97c1.82 1.09 2.74 2.48 2.74 4.16 0 1.2-.4 2.17-1.21 2.92-.8.75-1.85 1.12-3.13 1.12-1.48 0-2.82-.45-4.04-1.36V15.2c1.16 1.47 2.5 2.2 4.02 2.2.67 0 1.23-.19 1.68-.56.45-.37.67-.84.67-1.4-.02-.91-.68-1.78-1.99-2.59"></path><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAAgCAMAAADqkpxHAAAAG1BMVEX////35+fvxsbnra3ejIzWa2vOUlLGMTG9GBibW0q6AAAACXRSTlP//////////wBTT3gSAAACWUlEQVR4nLyX65aFIAiFE/Hy/k88pagbpDOetWaNv6yQD2FLddV/HiVnmV33CI4F3/dJ5vEygx8XzySbVdHzBoaF2vpALPcn4xt0fbxEh2LjWZ4E3JHcjTcXJ+i875A9Zzcv8JitESo6+4gOMHjuQa+TdKp7T4TXekrEkRR6Y1v0LzVZFOsrjjzk9aikAOjwWqFX9Ca0URhlO40YgypME32RZh+gN6E9bpKJZ/l5ZgUedDTv7BO0EVrz0uIB4+cytVmw4m/ovkrJ4wRthNavdDxLZHVTZUf3E4fJO0FroTVKMfHE5ba1G8i4oIUNQR2hm9CSoTBuGyrfQguAEHQtQbOP0Epog4LCV2khc/IGuq9YQZ2hobBrAQhtiWzubjEmukuNhuHHRqq3zWaWZ1GzNhb2OEvgKuERO0SnYQaUJTQQWX/CwmaDln1/hZ6FRcoUGlRdRpaNR4OWN4+PxtcH+CLwMygjnq3Jw8ajQfcjRh7al9kUmqaI0JTIFrxvnDUajtgpWuSlW1WLJxddG7PxUGztBvsY3QzZUFokVmSGHQ1ajnc+R7e82f6cmjgu9arCQbJGZyX1bJyjx2cPSrnIvY8K2dDyFjtHZ48i8WAmcD5Cs1rgy8T8Gb31ZohHmYFFcRMO36yH6OSg6/YWvu+sy+jJDNmH6LJR6vhkMcGMN0d7mDz0OPWIxmYWzALypOyXnygyiXMXLTJ47eEmBdlLCtlOxtpHfUF3mZyib8z2C/F4sPvB/57yilYthYMZFp08D+T8TfVkU6+5t+hvht/ISpmt5wcAAP//AwCBpFE5ZTGfKQAAAABJRU5ErkJggg=="></g>
+            </div>
+            <div class="options">
+                <hr class="d-block d-md-none">
+                <div class="d-flex d-md-none">
+                    <div style="width: 50%; text-align: center; padding: 8px; font-family: 'Helvetica', sans-serif; color: #ffffff; font-weight: 700;">
+                        Latest Stories
+                    </div>
+                    <div style="width: 50%; text-align: center; padding: 8px; font-family: 'Helvetica', sans-serif; color: #ffffff; font-weight: 700; background-color: #990000;">
+                        Most Read
+                    </div>
+                </div>
+                <div class="d-none d-md-flex header-options" style="font-family: 'Helvetica', sans-serif; color: #ffffff;">
+                    
+                <div style="padding: 8px 8px 8px 0px;">Home</div><div class="header-separator"></div><div style="padding: 8px;">Linuxit</div><div class="header-separator"></div><div style="padding: 8px;">Electron Virus</div><div class="header-separator"></div><div style="padding: 8px;">Web Alliance</div><div class="header-separator"></div><div style="padding: 8px;" class="d-none d-lg-block">United Native Alliance</div><div class="header-separator d-none d-lg-block"></div><div style="padding: 8px;" class="d-none d-lg-block">Dev Country Conflicts</div><div class="header-separator d-none d-lg-block"></div><div style="padding: 8px;" class="d-none d-lg-block">Stories</div><div class="header-separator d-none d-lg-block"></div><div style="padding: 8px;" class="d-none d-lg-block">In Pictures</div><div class="header-separator d-none d-lg-block"></div></div>
+            </div>
+        </div>
+    </div></nav>
+        <main>
+            <div class="container d-flex">
+                <div class="page-md mr-md-2" style="max-width: 800px;"># 16/5 Developer Sanctuary Elections
+<small class="credit">**TBBC World Service**<br>
+<span style="color: #696969">16 May 2021</span></small>
+
+Today's elections are going ahead as planned, with a total of 11 candidates.
+
+<img src="https://media.discordapp.net/attachments/813082550788161567/843415717285593088/Group_552.png" style="max-height: 250px; width: auto" class="mx-auto">
+*These elections follow a ten-day exile of the previous leader, FireCube#4142.*
+
+Those competing in the election are:
+- **Alur#2255**, standing for Alur Liberal Radicals
+- **TechnoBiscuit#3540**, standing for [The Biscuit Cult](https://dev801.github.io/discord)
+- **Chancellor Cat107#5775**, standing for Cat Potato Alliance
+- **Dukemz#7766**, standing for Emeril Alliance
+- **FireCube#4142**, standing for Cube on Fire
+- **Legacy Aviator#7010**, standing for Legacy Democratic Liberals
+- **Mostafa Walid#1316**, an independent candidate.
+- **Mune#9263 (Colin Kiama)**, standing for Sparkland Movement
+- **Nextin Hekonray#6621**, standing for Nextin Freedom Movement
+- **Phantom GhostX#5651**, an independent candidate.
+
+The current leader of Developer Sanctuary, Zeealeid#8472, has surprisingly not entered the election.</div>
+                <div class="d-none d-md-flex flex-column ml-auto top-stories" style="max-width: 320px;"><div class="d-flex flex-column"><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><h3>Top stories</h3><div class="d-flex flex-column"><h3><a href="#">React Nativstan invades React Winoaera</a></h3><p style="max-width: 600px;">Experts suggest that political instability in React Winoaera encouraged the invasion from React Nativstan.</p><div class="d-flex"><div class="icon" style="margin-right: 3px;"></div><div>3h ago</div></div></div><div class="d-flex flex-column"><h3><a href="#">Open Trade Union condemns invasion</a></h3><p style="max-width: 600px;">The Open Trade Union and several other countries draft a letter condemning React Nativstan siezure of React Winoaera violating historical treaties.</p><div class="d-flex"><div class="icon" style="margin-right: 3px;"></div><div>2h ago</div></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>React gulf crisis explained</h3><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813029046375546890/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">The React Winoaera nuclear weapon crisis</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813029941678702622/image1.jpg" style="margin-bottom: 5px;"><h3><a href="#">The history between React Nativstan and React Winoaera</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813031882123509780/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">How Proton Nativstan and Vue Nativstan play into the situation</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813021913113690112/image1.webp" style="margin-bottom: 5px;"><h3><a href="#">Why React Nativstan invaded React Winoaera</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813030947356016660/unknown.png" style="margin-bottom: 5px;"><h3><a href="#">The React Winoaera oil crisis explained</a></h3></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>Must see</h3><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/320/cpsprodpb/17581/production/_117071659_p097cb84.jpg" style="margin-bottom: 5px;"><h3><a href="#">Mount Vuetna: Mesmerising pictures of latest eruption</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/10A8A/production/_117043286_p0979h0t.jpg" style="margin-bottom: 5px;"><h3><a href="#">Is this Javada's thinnest house?</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813030078719983666/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">Historic images from The Great Web War I</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/10E0E/production/_117043196_pia24314.jpg" style="margin-bottom: 5px;"><h3><a href="#">Windmond's Quantars rover set for daunting landing</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/85CE/production/_117045243_p097b85n.jpg" style="margin-bottom: 5px;"><h3><a href="#">How to infiltrate enemy lines</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813033581051641866/unknown.png" style="margin-bottom: 5px;"><h3><a href="#">New helicopter model can fly upside down</a></h3></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>Most watched</h3><ol><li><a href="#">Blazoria race tournament highlights 2021</a></li><li><a href="#">Watch live: Windmond rover landing on Quantars</a></li><li><a href="#">PWAsia street food review</a></li><li><a href="#">Meteorological events observed as Vuetna erupts</a></li><li><a href="#">How this Quantars landing will be different to past explorations</a></li></ol></div></div></div>
+            </div>
+            <div class="container d-md-none">
+                <div class="d-flex d-md-none flex-column top-stories"><div class="d-flex flex-column"><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><h3>Top stories</h3><div class="d-flex flex-column"><h3><a href="#">React Nativstan invades React Winoaera</a></h3><p style="max-width: 600px;">Experts suggest that political instability in React Winoaera encouraged the invasion from React Nativstan.</p><div class="d-flex"><div class="icon" style="margin-right: 3px;"></div><div>3h ago</div></div></div><div class="d-flex flex-column"><h3><a href="#">Open Trade Union condemns invasion</a></h3><p style="max-width: 600px;">The Open Trade Union and several other countries draft a letter condemning React Nativstan siezure of React Winoaera violating historical treaties.</p><div class="d-flex"><div class="icon" style="margin-right: 3px;"></div><div>2h ago</div></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>React gulf crisis explained</h3><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813029046375546890/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">The React Winoaera nuclear weapon crisis</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813029941678702622/image1.jpg" style="margin-bottom: 5px;"><h3><a href="#">The history between React Nativstan and React Winoaera</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813031882123509780/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">How Proton Nativstan and Vue Nativstan play into the situation</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813021913113690112/image1.webp" style="margin-bottom: 5px;"><h3><a href="#">Why React Nativstan invaded React Winoaera</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813030947356016660/unknown.png" style="margin-bottom: 5px;"><h3><a href="#">The React Winoaera oil crisis explained</a></h3></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>Must see</h3><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/320/cpsprodpb/17581/production/_117071659_p097cb84.jpg" style="margin-bottom: 5px;"><h3><a href="#">Mount Vuetna: Mesmerising pictures of latest eruption</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/10A8A/production/_117043286_p0979h0t.jpg" style="margin-bottom: 5px;"><h3><a href="#">Is this Javada's thinnest house?</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813030078719983666/image0.jpg" style="margin-bottom: 5px;"><h3><a href="#">Historic images from The Great Web War I</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/10E0E/production/_117043196_pia24314.jpg" style="margin-bottom: 5px;"><h3><a href="#">Windmond's Quantars rover set for daunting landing</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://ichef.bbci.co.uk/news/380/cpsprodpb/85CE/production/_117045243_p097b85n.jpg" style="margin-bottom: 5px;"><h3><a href="#">How to infiltrate enemy lines</a></h3></div><div class="d-flex flex-column" style="margin-bottom: 10px;"><img src="https://media.discordapp.net/attachments/800653390567964676/813033581051641866/unknown.png" style="margin-bottom: 5px;"><h3><a href="#">New helicopter model can fly upside down</a></h3></div></div><div class="w-100" style="height: 2px; background-color: rgb(187, 25, 25); margin-bottom: 1rem;"></div><div class="d-flex flex-column"><h3>Most watched</h3><ol><li><a href="#">Blazoria race tournament highlights 2021</a></li><li><a href="#">Watch live: Windmond rover landing on Quantars</a></li><li><a href="#">PWAsia street food review</a></li><li><a href="#">Meteorological events observed as Vuetna erupts</a></li><li><a href="#">How this Quantars landing will be different to past explorations</a></li></ol></div></div></div>
+            </div>
+        </main>
+    
+<footer><hr class="w-100" style="margin-bottom: 10px;"><div class="container"><div class="d-flex flex-column">
+        <div class="row">
+            <div class="d-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>Home</div>
+                    <div>CBBC</div>
+                    <div>Local</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+            <div class="d-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>News</div>
+                    <div>CBeebies</div>
+                    <div>Three</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+            <div class="d-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>Sport</div>
+                    <div>Food</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+            <div class="d-none d-sm-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>Weather</div>
+                    <div>Bitesize</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+            <div class="d-none d-lg-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>iPlayer</div>
+                    <div>Arts</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+            <div class="d-none d-lg-flex footer-element-container col">
+                <div class="d-flex flex-column w-100">
+                    <div>Sounds</div>
+                    <div>Taster</div>
+                </div>
+                <div class="separator h-100"></div>
+            </div>
+        </div>
+        <hr class="w-100">
+        <div class="d-flex footer-bottom">
+            <div class="footer-element">
+                Terms of Use
+            </div>
+            <div class="footer-element">
+                About the TBBC
+            </div>
+            <div class="footer-element">
+                Privacy Policy
+            </div>
+            <div class="footer-element d-none d-sm-block">
+                Cookies
+            </div>
+            <div class="footer-element d-none d-sm-block">
+                Accessibility Help
+            </div>
+            <div class="footer-element d-none d-lg-block">
+                Parental Guidance
+            </div>
+            <div class="footer-element d-none d-lg-block">
+                Contact the TBBC
+            </div>
+            <div class="footer-element d-none d-lg-block">
+                Get Personalised Newsletters
+            </div>
+        </div>
+        <div style="padding-bottom: 8px;">
+            Copyright © 2021 TBBC. The TBBC is not responsible for the content of external sites.
+        </div>
+    </div></div></footer>
+    </body>
+</html>

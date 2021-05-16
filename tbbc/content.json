@@ -1,22 +1,22 @@
 {
     "headline": {
         "title": {
-            "textContent": "React Nativstan invades React Winoaera"
+            "textContent": "16/5 Developer Sanctuary Elections"
         },
         "link": {
-            "href": "#"
+            "href": "https://mediacoalition.github.io/tbbc/articles/05-16/elections"
         },
         "extra": {
-            "textContent": "Experts suggest that political instability in React Winoaera encouraged the invasion from React Nativstan.",
+            "textContent": "Today's elections are going ahead as planned, with a total of 11 candidates. These elections follow a ten-day exile of the previous leader, FireCube#4142.",
             "time": {
-                "textContent": "3h"
+                "textContent": "1h"
             },
             "category": {
-                "textContent": "React gulf crisis"
+                "textContent": "Politics"
             }
         },
         "image": {
-            "src": "https://media.discordapp.net/attachments/800653390567964676/813021912723750942/image0.jpg"
+            "src": "https://cdn.discordapp.com/attachments/792828158209556494/813400962051735552/image_7.png"
         }
     },
     "secondStory": {
